@@ -6,9 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.58"
 clap = { version = "3.2.15", features = ["derive"] }
 hex = "0.4.3"
 rand = "0.8.5"
 schnorr_fun = "0.7.1"
 sha2 = "0.9"
+wasmtime = "0.39.1"
 
